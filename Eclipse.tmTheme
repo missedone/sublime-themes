@@ -51,6 +51,32 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Invalid</string>
+			<key>scope</key>
+			<string>invalid</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F92672</string>
+				<key>background</key>
+				<string>#F8F8F0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Trailing whitespace</string>
+			<key>scope</key>
+			<string>invalid.deprecated.trailing-whitespace</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#AE81FF</string>
+				<key>foreground</key>
+				<string>#F8F8F0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Function name</string>
 			<key>scope</key>
 			<string>entity.name.function</string>
@@ -314,6 +340,8 @@
 			<dict>
 				<key>foreground</key>
 				<string>#7f0056</string>
+				<key>fontStyle</key>
+				<string> bold</string>
 			</dict>
 		</dict>
 		<dict>
@@ -426,12 +454,23 @@
 				<string>#990099</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Block Comment</string>
+			<key>scope</key>
+			<string>comment.block</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0000ff</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>B21D6240-8F97-11E2-9E96-0800200C9A66</string>
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>semanticClass</key>
-	<string>theme.dark.net_beans</string>
+	<string>theme.dark.eclipse</string>
 </dict>
 </plist>
